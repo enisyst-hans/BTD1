@@ -12,6 +12,6 @@ public class Start {
 	    
 	    
 
-	    log.info( "Ging alles glatt." );
+	    log.info( "BTD1 started" );
 	  }
 	}
