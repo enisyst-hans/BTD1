@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <map id="map1">
+      <author>Matthias Hans</author>
+      <title>First Map</title>
+      <publish_date>2000-10-01</publish_date>
+      <description>First map ever...</description>
+      <xFields>20</xFields>
+      <yFields>20</yFields>
+   </map>
+   <fields>
+   </fields>
