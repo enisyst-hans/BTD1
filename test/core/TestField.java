@@ -11,11 +11,4 @@ class TestField {
 	@BeforeEach
 	void setUp() throws Exception {
 	}
-
-	@Test
-	void testCalc() {
-	      Start myStart = new Start();
-	      Assert.assertTrue(10 == myStart.calc()); 
-	}
-
 }
