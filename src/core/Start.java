@@ -9,12 +9,7 @@ public class Start {
 
 	public static void main(String[] args) {
 		log.info("starting BTD1");
-
+		Map theMap = new Map(20, 20);
 		log.info("BTD1 started");
-	}
-
-	public int calc() {
-		int abc = 5 + 5;
-		return abc;
 	}
 }
