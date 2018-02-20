@@ -4,6 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import backend.Map;
+import backend.Parser;
 import frontend.GUI;
 
 public class Start {
@@ -16,5 +17,7 @@ public class Start {
 		GUI theGui = new GUI();
 		theGui.setVisible(true);
 		log.info("BTD1 started");
+		
+		Parser myParser = new Parser();
 	}
 }
