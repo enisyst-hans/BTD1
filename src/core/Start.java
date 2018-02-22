@@ -3,8 +3,6 @@ package core;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import backend.Map;
-import backend.Parser;
 import frontend.GUI;
 
 public class Start {

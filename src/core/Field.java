@@ -1,4 +1,4 @@
-package backend;
+package core;
 
 public class Field {
 
