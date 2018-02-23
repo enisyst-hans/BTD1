@@ -12,13 +12,13 @@ public class Start {
 	public static void main(String[] args) {
 		log.info("starting BTD1");
 		Map theMap = new Map(20, 20);
-		GUI theGui = new GUI();
-		theGui.setVisible(true);		
+		//GUI theGui = new GUI();
+		//theGui.setVisible(true);		
 		Wallet theWallet = Wallet.getTheWallet();
 		log.info("Wallet: " + theWallet.getCoins() + " coins");
 		
 		
-		Parser myParser = new Parser();
+		//Parser myParser = new Parser();
 		log.info("BTD1 started");
 	}
 }
