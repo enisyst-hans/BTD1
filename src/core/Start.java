@@ -1,5 +1,6 @@
 package core;
 
+import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -11,7 +12,7 @@ public class Start {
 
 	public static void main(String[] args) {
 		log.info("starting BTD1");
-		Map theMap = new Map(20, 20);
+		Map theMap = null;
 		//GUI theGui = new GUI();
 		//theGui.setSize(800, 600);
 		//theGui.setVisible(true);	
@@ -20,6 +21,8 @@ public class Start {
 		
 		
 		Parser myParser = new Parser();
+		File mapName = new File("maps\\map1.xml");
+		myParser.loadMap(theMap, mapName);
 		log.info("BTD1 started");
 	}
 }

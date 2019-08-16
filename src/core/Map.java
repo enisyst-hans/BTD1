@@ -15,7 +15,8 @@ public class Map {
 	public void generateMap(int pXFields, int pYFields) {
 		fields = new Field[pXFields][pYFields];
 		initializeMap();
-		log.info("generated map: ["+pXFields+"]["+pXFields+"]");
+		log.info("generated map: ["+pXFields+"]["+pYFields+"]");
+		
 	}
 	
 	public void initializeMap() {
@@ -25,4 +26,13 @@ public class Map {
 			}
 		}
 	}
+	
+	public void setFieldType(int pXField, int pYField, int pFieldType) {
+		fields[pXField][pYField].setFieldType(pFieldType);
+	}
+
+	public Field[][] getFields() {
+		return fields;
+	}
+	
 }

@@ -10,6 +10,10 @@ public class Field {
 	private int fieldType = 0;
 	
 	public Field(int pFieldType) {
-		pFieldType = fieldType;
+		fieldType = pFieldType;
+	}
+	
+	public void setFieldType(int pFieldType) {
+		fieldType = pFieldType;
 	}
 }

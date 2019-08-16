@@ -6,7 +6,7 @@
 	<publish_date>2000-10-01</publish_date>
 	<description>First map ever...</description>
 	<xFields>3</xFields>
-	<yFields>3</yFields>
+	<yFields>4</yFields>
 	<field fieldId="1">
 		<fieldType>1</fieldType>
 	</field>
@@ -32,6 +32,15 @@
 		<fieldType>2</fieldType>
 	</field>
 	<field fieldId="9">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="10">
+		<fieldType>3</fieldType>
+	</field>
+	<field fieldId="11">
+		<fieldType>2</fieldType>
+	</field>
+	<field fieldId="12">
 		<fieldType>1</fieldType>
 	</field>
 </map>
