@@ -13,12 +13,13 @@ public class Start {
 		log.info("starting BTD1");
 		Map theMap = new Map(20, 20);
 		//GUI theGui = new GUI();
-		//theGui.setVisible(true);		
+		//theGui.setSize(800, 600);
+		//theGui.setVisible(true);	
 		Wallet theWallet = Wallet.getTheWallet();
 		log.info("Wallet: " + theWallet.getCoins() + " coins");
 		
 		
-		//Parser myParser = new Parser();
+		Parser myParser = new Parser();
 		log.info("BTD1 started");
 	}
 }

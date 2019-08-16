@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map id="map1">
+<map>
+	<id>map1</id>
 	<author>Matthias Hans</author>
 	<title>First Map</title>
 	<publish_date>2000-10-01</publish_date>
 	<description>First map ever...</description>
-	<xFields>20</xFields>
-	<yFields>20</yFields>
+	<xFields>3</xFields>
+	<yFields>3</yFields>
+	<field fieldId="1">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="2">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="3">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="4">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="5">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="6">
+		<fieldType>1</fieldType>
+	</field>
+	<field fieldId="7">
+		<fieldType>3</fieldType>
+	</field>
+	<field fieldId="8">
+		<fieldType>2</fieldType>
+	</field>
+	<field fieldId="9">
+		<fieldType>1</fieldType>
+	</field>
 </map>
-<fields>
-	<field id="1">
-		<fieldType>1</fieldType>
-	</field>
-	<field id="2">
-		<fieldType>1</fieldType>
-	</field>
-	<field id="3">
-		<fieldType>1</fieldType>
-	</field>
-</fields>
