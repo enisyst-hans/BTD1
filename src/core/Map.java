@@ -22,7 +22,7 @@ public class Map {
 	public void initializeMap() {
 		for (int i = 0; i < fields.length; i++) {
 			for (int j = 0; j < fields[0].length; j++) {
-				fields[i][j] = new Field(1);
+				fields[i][j] = new Field(Field.BLOCKED);
 			}
 		}
 	}
@@ -35,4 +35,22 @@ public class Map {
 		return fields;
 	}
 	
+	public void printField() {
+		System.out.println("Map:[" + fields.length + "][" + fields[0].length + "]");
+		for (int i = 0; i < fields.length; i++) {
+			for (int j = 0; j < fields[0].length; j++) {
+
+				if (fields[i][j].getFieldType() == 100) {
+					System.out.print("[ ]");
+				} else if (fields[i][j].getFieldType() == 300) {
+					System.out.print("[X]");
+				} else if (fields[i][j].getFieldType() == 500) {
+					System.out.print("[S]");
+				} else if (fields[i][j].getFieldType() == 600) {
+					System.out.print("[E]");
+				}
+			}
+			System.out.println("");
+		}
+	}	
 }

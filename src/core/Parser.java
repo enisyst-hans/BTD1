@@ -26,7 +26,7 @@ public class Parser {
 
 	}
 
-	public void loadMap(Map theMap, File mapName) {
+	public Map loadMap(Map theMap, File mapName) {
 
 		log.info("loding map: " + mapName.toString());
 		
@@ -88,6 +88,7 @@ public class Parser {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return theMap;
 		
 	}
 }

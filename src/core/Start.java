@@ -22,7 +22,9 @@ public class Start {
 		
 		Parser myParser = new Parser();
 		File mapName = new File("maps\\map1.xml");
-		myParser.loadMap(theMap, mapName);
+		theMap = myParser.loadMap(theMap, mapName);
 		log.info("BTD1 started");
+		
+		theMap.printField();
 	}
 }
