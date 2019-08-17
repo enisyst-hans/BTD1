@@ -2,13 +2,19 @@ package core;
 
 public class Field {
 
-	private static final int EMPTY = 1;
-	private static final int WAY = 2;
-	private static final int BLOCKED = 3;
-	private static final int TOWER = 4;
+	public static final int EMPTY = 100;
+	public static final int WAY = 200;
+	public static final int BLOCKED = 300;
+	public static final int TOWER = 400;
+	public static final int ENTRANCE = 500;
+	public static final int EXIT = 600;
 	
 	private int fieldType = 0;
 	
+	public int getFieldType() {
+		return fieldType;
+	}
+
 	public Field(int pFieldType) {
 		fieldType = pFieldType;
 	}
