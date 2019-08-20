@@ -6,7 +6,7 @@ public class Field {
 	public static final int WAY = 200;
 	public static final int BLOCKED = 300;
 	public static final int TOWER = 400;
-	public static final int ENTRANCE = 500;
+	public static final int START = 500;
 	public static final int EXIT = 600;
 	
 	private int fieldType = 0;

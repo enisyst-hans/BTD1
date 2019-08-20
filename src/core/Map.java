@@ -35,22 +35,24 @@ public class Map {
 		return fields;
 	}
 	
-	public void printField() {
-		System.out.println("Map:[" + fields.length + "][" + fields[0].length + "]");
+	public String printField() {
+		String returnString = "";
+		returnString += "Map size: [" + fields.length + "][" + fields[0].length + "]";
 		for (int i = 0; i < fields.length; i++) {
+			returnString += "\n";
 			for (int j = 0; j < fields[0].length; j++) {
 
 				if (fields[i][j].getFieldType() == 100) {
-					System.out.print("[ ]");
+					returnString += "[ ]";
 				} else if (fields[i][j].getFieldType() == 300) {
-					System.out.print("[X]");
+					returnString += "[X]";
 				} else if (fields[i][j].getFieldType() == 500) {
-					System.out.print("[S]");
+					returnString += "[S]";
 				} else if (fields[i][j].getFieldType() == 600) {
-					System.out.print("[E]");
+					returnString += "[E]";
 				}
 			}
-			System.out.println("");
 		}
+		return returnString;
 	}	
 }
